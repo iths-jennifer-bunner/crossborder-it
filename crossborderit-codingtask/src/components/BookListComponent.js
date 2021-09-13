@@ -60,6 +60,9 @@ function BookListComponent() {
         <h5 key={id}>
           Name: {author.authorfirst} {author.authorlast}
           Title:
+          {/* {titles.map((title, id ) => (
+          <h5 key={id}> {title}</h5>
+          ))} */}
         </h5>
       ))}
     </div>
